@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">splashscreen</string>
+    <string name="grid_layout">GRID LAYOUT</string>
+    <string name="at_first">Me</string>
+</resources>

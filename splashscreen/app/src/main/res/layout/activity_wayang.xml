@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wayang"
+    android:orientation="vertical"
+    android:background="@mipmap/bgee">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/wayangimg" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="549dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:text="Batara"
+                android:textColor="@color/putih"
+                android:textSize="40px" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:text="Pandawa"
+                android:textColor="@color/putih"
+                android:textSize="40px"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:text="Kurawa"
+                android:textColor="@color/putih"
+                android:textSize="40px" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:text="Ramayana"
+                android:textColor="@color/putih"
+                android:textSize="40px"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:text="Punakawan"
+                android:textColor="@color/putih"
+                android:textSize="40px"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

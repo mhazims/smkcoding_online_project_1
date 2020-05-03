@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="gradient_start_color">#CE9123</color>
+    <color name="gradient_end_color">#CE9123</color>
+
+    <color name="tab_indicator_grey">#DBD8D5</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#96938E</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="judul">#FFFFFF</color>
+    <color name="transparent2">#37FFFFFF</color>
+    <color name="transparent3">#74853B00</color>
+    <color name="transparent4">#908D5A41</color>
+    <color name="hitam">#000000</color>
+    <color name="putih">#FFFFFF</color>
+
+</resources>
